@@ -20,7 +20,7 @@ const connection = new Sequelize({
         dateStrings: true,
         typeCast: true,
         timezone: '-03:00',
-        ssl: false
+        ssl: true
     },
     timezone: '-03:00'
 });
